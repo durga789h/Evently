@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import image1 from '../../public/assets/images/hero.png'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
             <Link href={"#events"}>Explore Now</Link>
           </Button>
          </div>
-         <Image src={"/assets/images/hero.png"} width={1000} height={1000} alt="hero"
+         <Image src={image1} width={1000} height={1000} alt="hero"
          className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"></Image>
         </div>
       </section>
